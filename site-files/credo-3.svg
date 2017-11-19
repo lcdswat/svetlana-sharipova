@@ -1,0 +1,52 @@
+<svg width="100" height="100" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>if_chat_1055095</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(891 -628)">
+<g id="if_chat_1055095">
+<g id="Layer 1">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-891 628)" fill="#77B3D4"/>
+</g>
+</g>
+<g id="Group" opacity="0.2">
+<g id="Vector" opacity="0.2">
+<use xlink:href="#path1_fill" transform="translate(-872.25 649.875)" fill="#231F20"/>
+</g>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(-847.52 646.75)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(-872.25 646.75)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(-844.125 671.75)" fill="#4F5D73"/>
+</g>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(-831.625 671.75)" fill="#4F5D73"/>
+</g>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(-856.625 671.75)" fill="#4F5D73"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 50 100C 77.6142 100 100 77.6142 100 50C 100 22.3858 77.6142 0 50 0C 22.3858 0 0 22.3858 0 50C 0 77.6142 22.3858 100 50 100Z"/>
+<path id="path1_fill" d="M 62.5 28.125C 62.5 12.5922 48.5094 0 31.25 0C 13.9906 0 0 12.5922 0 28.125C 0 43.0766 12.9734 55.2688 29.3359 56.1625C 30.4109 61.8703 31.25 65.625 31.25 65.625C 31.25 65.625 39.1328 60.8688 46.3109 52.7656C 55.9594 47.9781 62.5 38.7422 62.5 28.125Z"/>
+<path id="path2_fill" d="M 33.0826 26.25C 33.0826 49.6297 6.52014 65.625 6.52014 65.625C 6.52014 65.625 -8.15017 0 6.52014 0C 21.1904 0 33.0826 11.7531 33.0826 26.25Z"/>
+<path id="path3_fill" d="M 31.25 56.25C 48.5089 56.25 62.5 43.658 62.5 28.125C 62.5 12.592 48.5089 0 31.25 0C 13.9911 0 0 12.592 0 28.125C 0 43.658 13.9911 56.25 31.25 56.25Z"/>
+<path id="path4_fill" d="M 3.125 6.25C 4.85089 6.25 6.25 4.85089 6.25 3.125C 6.25 1.39911 4.85089 0 3.125 0C 1.39911 0 0 1.39911 0 3.125C 0 4.85089 1.39911 6.25 3.125 6.25Z"/>
+</defs>
+</svg>
