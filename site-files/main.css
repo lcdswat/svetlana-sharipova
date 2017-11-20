@@ -21,6 +21,26 @@ body {
 	clear: both !important;
 }
 
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+a {
+	color: #2372BA;
+	-webkit-transition: color ease 0.4,;
+	-moz-transition: color ease 0.4s;
+	-o-transition: color ease 0.4s;
+	transition: color ease 0.4s;
+}
+
+a:hover {
+	color: #E0995E;
+}
+
 h1 {
 	width: 1000px;
 	font-weight: lighter;
@@ -64,8 +84,39 @@ h2 {
 	padding: 0 0 25px 0;
 }
 
+#header-inside {
+	width: 100%;
+	background-image: url(/site-files/header.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 50px 0 80px 0;
+}
+
+#header-inside img {
+	display: block;
+	margin: 0 auto 0 auto;
+	padding: 70px 0 25px 0;
+}
+
+#header-inside span {
+	display: block;
+	font-family: 'PT Serif', serif;
+	font-size: 42px;
+	line-height: 42px;
+	padding: 0 0 25px 0;
+}
+
+#header-inside span a {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 #menu {
-	width: 770px;
+	width: 774px;
 	height: 70px;
 	margin: 0 auto -70px auto;
 	position: relative;
@@ -78,7 +129,7 @@ h2 {
 }
 
 #menu a {
-	width: 154px;
+	width: 129px;
 	padding: 25px 0 21px 0;
 	text-align: center;
 	display: block;
@@ -90,10 +141,11 @@ h2 {
 	-moz-transition: background-color ease 0.4s;
 	-o-transition: background-color ease 0.4s;
 	transition: background-color ease 0.4s;
+	font-size: 16px;
 }
 
 #menu a:hover {
-	background-color: orange;
+	background-color: #E0995E;
 	color: white;
 }
 
@@ -118,6 +170,16 @@ h2 {
 	bottom: 35px;
 	text-align: center;
 	border-radius: 70px;
+	color: black;
+	-webkit-transition: background-color ease 0.4,;
+	-moz-transition: background-color ease 0.4s;
+	-o-transition: background-color ease 0.4s;
+	transition: background-color ease 0.4s;
+}
+
+#main-page-about:hover {
+	background-color: #E0995E;
+	color: white;
 }
 
 #my-credo {
@@ -248,7 +310,288 @@ h2 {
 	border-top: 2px solid #F5F5F5;
 	padding: 25px 0 60px 0;
 	font-size: 14px;
-}	
+}
+
+#footer div {
+	float: left;
+	margin: 0 60px 0 0;
+}
+
+#footer div a {
+	font-size: 14px;
+	display: block;
+}
+
+#about {
+	padding: 40px 0 0 0;
+}
+
+#about img {
+	float: right;
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.25);
+	margin: 0 0 -140px 0;
+}
+
+#about .fleft span {
+	display: block;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 20px 0 20px 0;
+}
+
+#my-score h2 {
+	padding: 60px 0 60px 0;
+}
+
+#my-score ul {
+	margin: 0;
+	padding: 0;
+}
+
+#my-score li {
+	margin: 0 0 10px 0;
+}
+
+#students-score {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+#students-score li {
+	display: inline-block;
+	width: 310px;
+	margin: 0 20px 40px 0;
+	padding: 10px 0 0 0;
+	text-indent: 0;
+	float: left;
+	border-top: 2px solid black;
+	vertical-align: top;
+}
+
+#students-score li span {
+	display: block;
+	font-size: 22px;
+	padding: 0 0 5px 0;
+}
+
+#photos {
+	width: 1010px;
+	margin: 0 auto 0 auto;
+}
+
+#photos img {
+	display: block;
+	margin: 5px;
+	border-radius: 5px;
+	float: left;
+}
+
+#photos h2 {
+	padding: 30px 0 10px 0;
+}
+
+#parrents-main {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+#parrents-main h1 {
+	padding: 0 0 50px 0;
+}
+
+#zapovedi {
+	width: 1040px;
+}
+
+#zapovedi h2 {
+	padding: 40px 0 60px 20px;
+}
+
+#zapovedi span {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 0 10px 0;
+}
+
+#zapovedi div {
+	width: 480px;
+	padding: 0 20px 60px 20px;
+	float: left;
+	font-size: 14px;
+}
+
+#zapovedi div div {
+	width: 100px;
+	height: 100px;
+	margin: 0 -100px -100px 0;
+	position: relative;
+	padding: 0;
+	float: none;
+	font-size: 120px;
+	font-weight: bold;
+	color: #E3E3E3;
+	z-index: -1;
+	left: -40px;
+	top: 10px;
+}
+
+#sposoby h2 {
+	padding: 0 0 30px 0;
+}
+
+#sposoby span {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 30px 0 10px 0;
+}
+
+#materials-for-parrents {
+
+}
+
+
+#materials-for-parrents h2 {
+	padding: 30px 0 40px 0;
+}
+
+#materials-for-parrents a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	width: 354px;
+	background-color: #EDEDED;
+	background-image: url(/site-files/word.svg);
+	background-repeat: no-repeat;
+	background-position: 20px 15px;
+	border-radius: 5px;
+	float: left;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 20px 20px 20px 90px;
+	margin: 0 20px 20px 0;
+	cursor: pointer;
+	border: 2px solid #EDEDED;
+	-webkit-transition: border ease-in 0.2,;
+	-moz-transition: border ease-in 0.2s;
+	-o-transition: border ease-in 0.2s;
+	transition: border ease-in 0.2s;
+}
+
+#materials-for-parrents a:hover {
+	border: 2px solid #E0995E;
+}
+
+#main-dates {
+	width: 100%;
+	background-image: url(/site-files/students-image.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+#main-dates span {
+	display: block;
+	font-size: 42px;
+	line-height: 48px;
+	font-weight: bold;
+	padding: 60px 0 60px 0;
+	float: left;
+}
+
+#main-dates a {
+	float: right;
+	display: block;
+	border-radius: 60px;
+	color: white;
+	width: 170px;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	margin: 80px 0 0 0;
+	text-decoration: none;
+	border: 2px solid white;
+	-webkit-transition: background-color ease-in 0.2,;
+	-moz-transition: background-color ease-in 0.2s;
+	-o-transition: background-color ease-in 0.2s;
+	transition: background-color ease-in 0.2s;
+}
+
+#main-dates a:hover {
+	background-color: white;
+	color: black;
+}
+
+
+#materials-for-students h2 {
+	padding: 60px 0 40px 0;
+}
+
+#materials-for-students a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	width: 354px;
+	background-color: #EDEDED;
+	background-image: url(/site-files/word.svg);
+	background-repeat: no-repeat;
+	background-position: 20px 15px;
+	border-radius: 5px;
+	float: left;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 20px 20px 20px 90px;
+	margin: 0 20px 20px 0;
+	cursor: pointer;
+	border: 2px solid #EDEDED;
+	-webkit-transition: border ease-in 0.2,;
+	-moz-transition: border ease-in 0.2s;
+	-o-transition: border ease-in 0.2s;
+	transition: border ease-in 0.2s;
+}
+
+#materials-for-students a:hover {
+	border: 2px solid #E0995E;
+}
+
+.pdf {
+	background-image: url(/site-files/pdf.svg) !important;
+}
+
+#links h2 {
+	padding: 60px 0 40px 0;
+}
+
+#links a {
+	display: block;
+}
+
+#teachers h2 {
+	padding: 60px 0 60px 0;
+}
+
+#teachers a {
+	display: block;
+}
+
+.contacts-info {
+	width: 33%;
+	display: inline-block;
+	padding: 40px 0 0 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

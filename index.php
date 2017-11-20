@@ -3,6 +3,9 @@
 <head>
 	<title>Светлана Шарипова</title>
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
+	<style type="text/css">
+		#menulink-mainpage {display: none !important;}
+	</style>
 </head>
 <body>
 
@@ -47,13 +50,13 @@
 <!-- Школьные будни -->
 <div class="grid" id="main-page-photos">
 	<h2>Школьные будни</h2>
-	<a data-fancybox="gallery" href="/images/fish.png"><img src="/images/fish-t.png"></a>
-	<a data-fancybox="gallery" href="/images/fish.png"><img src="/images/fish-t.png"></a>
-	<a data-fancybox="gallery" href="/images/fish.png"><img src="/images/fish-t.png"></a>
-	<a data-fancybox="gallery" href="/images/fish.png"><img src="/images/fish-t.png"></a>
-	<a data-fancybox="gallery" href="/images/fish.png"><img src="/images/fish-t.png"></a>
-	<a data-fancybox="gallery" href="/images/fish.png"><img src="/images/fish-t.png"></a>
-	<a data-fancybox="gallery" href="/images/fish.png"><img src="/images/fish-t.png"></a>
+	<a data-fancybox="gallery" href="/images/mainpage02.jpg"><img src="/images/thumb/mainpage02.jpg"></a>
+	<a data-fancybox="gallery" href="/images/mainpage03.jpg"><img src="/images/thumb/mainpage03.jpg"></a>
+	<a data-fancybox="gallery" href="/images/mainpage04.jpg"><img src="/images/thumb/mainpage04.jpg"></a>
+	<a data-fancybox="gallery" href="/images/mainpage01.jpg"><img src="/images/thumb/mainpage01.jpg"></a>
+	<a data-fancybox="gallery" href="/images/mainpage05.jpg"><img src="/images/thumb/mainpage05.jpg"></a>
+	<a data-fancybox="gallery" href="/images/mainpage06.jpg"><img src="/images/thumb/mainpage06.jpg"></a>
+	<a data-fancybox="gallery" href="/images/mainpage07.jpg"><img src="/images/thumb/mainpage07.jpg"></a>
 	<span><a href="/school">Больше<br>фотографий →</a></span>
 </div>
 
